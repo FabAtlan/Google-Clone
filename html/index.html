@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../css/style.css">
   <title>Google by BABBOU</title>
 </head>
-<body>
-  <header class="header">
-    <ul class="link-header">
-      <li class="link">Gmail</li>
-      <li class="link">Images</li>
-      <li class="link">
-        <img class="avatar"
-        src="application.PNG"
-        alt=""></li>
-      <li class="link">
-        <img class="avatar"
-        src="https://lh3.googleusercontent.com/ogw/ADGmqu8Z6xBr15h3IQMcLNiJTP_E-zUJS_BYbCr2059Akw=s32-c-mo"
-        alt="">
-      </li>
-    </ul>
+<body class="container flex-center-col">
+  <header class="header-nav">
+    <nav class="menu">
+      <div class="links-profil">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <a class="cent-vert appli" href="#" title="Applications">
+          <img class="img-appli" src="../images/application.PNG" alt="Applications Google">
+        </a>
+        <a class="cent-vert" href="#">
+          <img class="img-profil" src="https://lh3.googleusercontent.com/ogw/ADGmqu8Z6xBr15h3IQMcLNiJTP_E-zUJS_BYbCr2059Akw=s32-c-mo"
+          alt="">
+        </a>
+      </div>
+    </nav>
   </header>
   <main>
-    <div class="img-google">
-      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-    </div>
-    <div class="img-google">
-      <input type="button" class="button"></button>
-    </div>
-    <div class="box-button">
-      <button>Recherche Google</button>
-      <button>J'ai de la chance</button>
-    </div>
-    <p class="text-language">Google disponible en: <span class="language">English</span></p>
+    <section class="section">
+      <img class="img-google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+    </section>
+    <section class="area-search">
+      <input type="search" class="search">
+      <div>
+        <button class="btn">Recherche Google</button>
+        <button class="btn">J'ai de la chance</button>
+      </div>
+      <p>Google disponible en: <span >English</span></p>
+    </section>
   </main>
   <footer></footer>
 </body>
