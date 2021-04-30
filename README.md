@@ -35,7 +35,7 @@ Liste non-ordonnée :
   * Item B
 * Item 2
 
-["Vers un cours sur le Markdown avec Grafikart"](https://youtu.be/6hikjzymd0c){:target="_blank"}
+<a href="https://youtu.be/6hikjzymd0c" target="_blank" title="Vers un cours Grafikart">Vers un cours sur le Markdown avec Grafikart</a>
 
 Du code `for (let i = 0; i <= 10; i++) { ... }`  sur une ligne.
 
