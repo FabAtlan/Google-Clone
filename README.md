@@ -3,15 +3,24 @@
 ## Mon titre h2
 
 Lorem *ipsum* dolor **sit** amet...
+\
+Lorem *ipsum* dolor **sit** amet...
 
-**Bold et _italic_ combiné**
-
+dzdz**Bold et _italic_ combiné**
+\
+\
+~~Pour barrer faire comme çà !~~
+\
+\
+\
 ~~Pour barrer faire comme çà !~~
 
 ### Mon titre h3
 
 #### Mon titre h4
 
+___
+\
 Liste ordonnée :
 
 1. Item 1
@@ -19,6 +28,8 @@ Liste ordonnée :
 1. Item 2
 1. Item 2
 
+___
+\
 Liste non-ordonnée :
 
 * Item 1
@@ -26,6 +37,8 @@ Liste non-ordonnée :
   * Item 1
   * Item 2
 
+___
+\
 Liste non-ordonnée :
 
 * Item 1
@@ -35,10 +48,15 @@ Liste non-ordonnée :
   * Item B
 * Item 2
 
+___
+\
 ["Vers un cours sur le Markdown avec Grafikart"](https://youtu.be/6hikjzymd0c)
-
+\
+\
 Du code `for (let i = 0; i <= 10; i++) { ... }`  sur une ligne.
-
+\
+\
+\
 Du code autrement :
 
 ```javascript
